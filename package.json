@@ -1,0 +1,12 @@
+{
+  "name": "ollibot",
+  "version": "1.0.0",
+  "description": "ESN OlliBot",
+  "main": "index.js",
+  "author": "Marco Mondini<mmondini@mondspace.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "telegraf": "^3.38.0"
+  }
+}
