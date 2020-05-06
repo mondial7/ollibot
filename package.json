@@ -2,17 +2,14 @@
   "name": "ollibot",
   "version": "1.0.0",
   "description": "ESN OlliBot",
-  "main": "./api/index.js",
+  "main": "api/index.js",
   "author": "Marco Mondini<mmondini@mondspace.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "telegraf": "^3.38.0"
+    "micro-bot": "^2.5.3"
   },
   "scripts": {
-    "start": "node ./api/index.js"
-  },
-  "engines": {
-    "node": "^10.16.0"
+    "start": "micro-bot"
   }
 }

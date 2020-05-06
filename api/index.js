@@ -1,12 +1,10 @@
-const { Telegraf } = require('telegraf')
+const { Composer } = require('micro-bot')
+const bot = new Composer()
 
-const bot = new Telegraf(process.env.BOT_TOKEN)
-
-bot.start(({ reply }) => reply('Welcome'))
-bot.help(({ reply }) => reply('Send me a sticker'))
+bot.start((ctx) => ctx.reply('Welcome'))
+bot.help((ctx) => ctx.reply('Help message'))
+bot.hears('hi', ({ reply }) => reply('Hello'))
 bot.on('sticker', ({ reply }) => reply('👍'))
-bot.hears('hi', ({ reply }) => reply('Hey there'))
-// bot.command('oldschool', (ctx) => ctx.reply('Hello'))
-// bot.command('hipster', Telegraf.reply('λ'))
+bot.on('message', ({ reply }) => reply('👋'))
 
-bot.launch()
+module.exports = bot

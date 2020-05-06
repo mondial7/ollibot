@@ -9,6 +9,20 @@ debug@^4.0.1:
   dependencies:
     ms "^2.1.1"
 
+dotenv@^6.0.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
+  integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
+
+micro-bot@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/micro-bot/-/micro-bot-2.5.3.tgz#56eac8271f2f8bd9530341aabde36d6253d98d1a"
+  integrity sha512-64sh5hw3AOgWJ4DYgpSGuyhH/TDVm0S3rLxGMB+rFPyPL/urGloMDXr+KM2+TfAUnnXncnD297vBselwLXCXtw==
+  dependencies:
+    dotenv "^6.0.0"
+    minimist "^1.2.0"
+    telegraf "^3.25.4"
+
 minimist@^1.2.0:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
@@ -34,7 +48,7 @@ sandwich-stream@^2.0.1:
   resolved "https://registry.yarnpkg.com/sandwich-stream/-/sandwich-stream-2.0.2.tgz#6d1feb6cf7e9fe9fadb41513459a72c2e84000fa"
   integrity sha512-jLYV0DORrzY3xaz/S9ydJL6Iz7essZeAfnAavsJ+zsJGZ1MOnsS52yRjU3uF3pJa/lla7+wisp//fxOwOH8SKQ==
 
-telegraf@^3.38.0:
+telegraf@^3.25.4:
   version "3.38.0"
   resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-3.38.0.tgz#745b447547a8e6cdb626055e4d616058aaae0759"
   integrity sha512-va4VlrKWp64JrowFoZX/NPzzA6q38kvaIukVXOWFO1V+jR1G8+hCfgJy4TX8Z3rwLJzwaBEet1QhikHDRZWl3A==
