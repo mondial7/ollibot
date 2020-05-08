@@ -4,6 +4,7 @@ const bot = new Composer()
 const r = (msg) => ({ reply }) => reply(msg)
 const your_mom = r('YOUR MOM!')
 
+
 bot.start((ctx) => ctx.reply('Welcome'))
 bot.help((ctx) => ctx.reply('Help message'))
 bot.hears([/.*hi.*/g,/.*hello.*/g], ({ reply }) => reply('Shut up'))
